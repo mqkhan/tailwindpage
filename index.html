@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Poppins:wght@500&family=Roboto:ital,wght@0,400;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <header>
+        <!-- Nav Section Starts Here -->
+        <nav class="sm:flex justify-between items-center w-6/6">
+          <div class="logo w-1/6">
+            <img src="navlogo.png" alt="" />
+          </div>
+          <div class="menue sm:flex w-2/6 gap-x-8 font-bold text-slate-700">
+            <a class="hover:text-sky-500" href="">Docs</a>
+            <a class="hover:text-sky-500" href="">Components</a>
+            <a class="hover:text-sky-500" href="">Blog</a>
+            <a class="hover:text-sky-500" href="">Showcase</a>
+          </div>
+        </nav>
+        <!-- Nav Section Ends Here -->
+
+        <!-- Hero Section Starts Here -->
+
+        <div
+          class="hero flex flex-col relative max-w-5xl mx-auto pt-10 sm:pt-24 lg:pt-32 gap-10"
+        >
+          <h1
+            class="text-slate-900 font-extrabold text-4xl lg:text-6xl tracking-tight text-center leading-10"
+          >
+            Rapidly build modern websites <br />
+            without ever leaving your HTML.
+          </h1>
+          <p
+            class="font-sans mt-6 text-lg text-slate-600 text-center max-w-3xl mx-auto dark:text-slate-400"
+          >
+            A utility-first CSS framework packed with classes like, that can be
+            composed to build any design, directly in your markup.
+          </p>
+          <div class="sm:flex justify-center space-x-6">
+            <a
+              class="bg-black hover:bg-cyan-600 font-semibold h-12 px-6 rounded-lg flex items-center justify-center text-white"
+              href=""
+              >Get Started</a
+            >
+            <button
+              type="button"
+              class="w-72 text-left px-4 bg-white ring-1 hover:ring-slate-300 rounded-lg text-slate-400 dark:bg-slate-800"
+            >
+              <span>Quick Search...</span>
+            </button>
+          </div>
+        </div>
+        <!-- Hero Section Ends Here -->
+      </header>
+    </div>
+  </body>
+</html>
